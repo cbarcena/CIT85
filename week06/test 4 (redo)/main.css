@@ -1,0 +1,51 @@
+/*html {
+    width: 200px;
+}*/
+
+body {
+    width: 200px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid grey;
+    margin: auto;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+    display: inline-block;
+
+
+}
+
+#one {
+    border: 3px dashed black;
+    background-color: crimson;
+}
+
+#two {
+    border: 3px dashed black;
+    background-color: darkblue;
+}
+
+#three {
+    border: 3px dashed black;
+    background-color: darkcyan;
+}
+
+#four {
+    border: 3px dashed black;
+    background-color: darkolivegreen;
+}

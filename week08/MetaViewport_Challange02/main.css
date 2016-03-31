@@ -1,0 +1,6 @@
+img{
+    position:relative;
+    left:50%;
+    width:225px;
+    margin-left:-112.5px; /*half the width*/
+}

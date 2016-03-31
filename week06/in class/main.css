@@ -1,0 +1,38 @@
+html {
+    border: 1px solid black;
+}
+body {
+    border: 1px solid black;
+}
+div {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.one {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: crimson;
+}
+
+.two {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+
+.three {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: darkcyan;
+}
+
+.four {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: lightskyblue;
+}

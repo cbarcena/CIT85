@@ -1,0 +1,14 @@
+html {
+     font-size: 62.5%;
+ }
+
+article {
+    font-size:4rem;
+    border:1px solid black;
+}
+
+p {
+    font-size:120%;
+    margin:1em;
+    border:1px solid black;
+}

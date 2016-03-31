@@ -1,0 +1,39 @@
+html {
+    border: 1px solid black;
+    margin: 50px;
+}
+body {
+    border: 1px solid black;
+}
+div {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.one {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: crimson;
+}
+
+.two {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: darkblue;
+}
+
+.three {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: darkcyan;
+}
+
+.four {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: darkolivegreen;
+}

@@ -1,0 +1,24 @@
+/** {
+    border: 1px dashed blue;
+}*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    border-radius: 50px;
+    display: inline-block;
+}
+
+a {
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    display: inline-block;
+
+}
+
+li:hover {
+    background-color: lightslategrey;
+}

@@ -1,0 +1,25 @@
+* {
+    border: 2px solid cornflowerblue;
+}
+html{
+    border:2px solid cadetblue;
+}
+body{
+    border:2px solid royalblue;
+}
+div{
+    border: 2px solid deepskyblue;
+    color:#fff;
+}
+#relative{
+    width: 600px;
+    height:150px;
+    position:relative;
+    background-color:steelblue;
+}
+#absolute{
+    width: 600px;
+    height:150px;
+    position:relative;
+    background-color:#8888bb;
+}

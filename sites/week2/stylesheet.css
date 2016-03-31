@@ -1,0 +1,34 @@
+#container {
+    position:absolute;
+    background-color:limegreen;
+    width:969px;
+    margin: auto ;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:solid darkblue 5px;
+
+}
+body {
+    font-family: Arial;
+
+}
+
+#graphic {
+    padding:20px 147px 20px 147px;
+}
+img {
+    border-radius:300px;
+    border: solid 10px yellow;
+
+}
+
+#first {
+    color:blue;
+}
+
+#second {
+    color:red;
+}
+ p {
+
+ }

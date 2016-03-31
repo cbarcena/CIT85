@@ -1,0 +1,25 @@
+body{
+    background-color:black;
+}
+img{
+    position:relative;
+    width: 50%;
+    /*left:50%;*/
+    margin: 0 25% 0 25%;
+    border:3px solid blue;
+}
+@media print {
+    img {
+        border: 3px dashed black;
+    }
+}
+@media screen and (min-width:600px) {
+    img {
+        border:3px solid green;
+    }
+}
+@media screen and (min-width:900px) {
+    img {
+        border:3px solid red;
+    }
+}
