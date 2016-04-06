@@ -1,0 +1,8 @@
+// for all of these commands, your terminal must be in your project folder somewhere
+// run anytime:
+git status
+
+// to put your code to github:
+git add --all
+git commit -m "some message about your code"
+git push
