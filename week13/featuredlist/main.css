@@ -1,0 +1,42 @@
+html, body, p, div, button{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html, body, #content{
+    height:100%;
+
+}
+#content{
+    color:grey;
+    font-size:1.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.icon{
+    width:2em;
+    height:3em;
+    fill:currentColor;
+    overflow:hidden;
+    padding-right:1em;
+
+
+}
+.description{
+    width:450px;
+    border-bottom:1px solid grey;
+    text-align:right;
+    margin-bottom:20px;
+
+}
+.icon, .description{
+    display:flex;
+    justify-content:space-between;
+}
+#test{
+    border:1px solid grey;
+    border-radius:8px;
+    padding:50px 50px 50px 50px;
+}

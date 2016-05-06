@@ -1,0 +1,15 @@
+body, header {
+    margin:0;
+    padding:0;
+    height:100%;
+    box-sizing:border-box;
+}
+
+header {
+     background-color: rgba(244, 194, 13, .7);
+     background-image: url(diamond.svg);
+     background-size: contain;
+     /*border: 10px solid hotpink;*/
+     background-position: bottom;
+     background-repeat: no-repeat;
+ }

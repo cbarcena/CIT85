@@ -1,0 +1,48 @@
+html, body, div, h1, h2, button{
+    padding:0;
+    border:0;
+    margin:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:1vw;
+    color:dimgray;
+    font-family:sans-serif;
+}
+html, body, #atf{
+    height:100%;
+}
+#atf{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    font-size:4rem;
+    margin-bottom:1rem;
+}
+h2{
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+button{
+    padding:1rem 3rem;
+    font-size:1rem;
+    color:white;
+    background-color:steelblue;
+    border:1px solid #2f74b4;
+    border-radius:4px;
+    cursor:pointer;
+}
+.icon{
+    width:1em;
+    height:1em;
+    fill:currentColor;
+    overflow:hidden;
+
+}
+.icon-smiley{
+    color:lightslategrey;
+    font-size:20rem;
+}

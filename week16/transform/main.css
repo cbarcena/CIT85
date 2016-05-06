@@ -1,0 +1,55 @@
+html, body, div h1 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+html{
+    font-size:2vw;
+}
+
+body, div, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width:20rem;
+    height:10rem;
+    background-color:white;
+    /*box-shadow:2px 2px 10px black;*/
+    /*border-radius:70px 0 0 0;*/
+    /*transform:skew(30deg, 20deg);*/
+}
+
+.drop-shadow {
+    position: relative;
+    float: left;
+    width: 40%;
+    padding: 1em;
+    margin: 2em 10px 4em;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) , 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -mox-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) , 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) , 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.drop-shadow:before,
+.drop-shadow:after {
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+.drop-shadow p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.curled {
+    border: 1px solid #efefef;
+    -moz-border-radius: 0 0 120px 120px / 0 0 6px 6px;
+    border-radius: 0 0 120px 120px / 0 0 6px 6px;
+}

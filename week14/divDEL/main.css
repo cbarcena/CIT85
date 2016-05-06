@@ -1,0 +1,10 @@
+
+p::first-letter{
+    color:dodgerblue;
+    font-size:20px;
+    font-weight: bold;
+}
+p::first-line{
+    color:dimgrey;
+
+}
