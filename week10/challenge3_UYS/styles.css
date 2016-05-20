@@ -1,15 +1,19 @@
 nav {
-    backgruond-color:darkgrey;
+    background-color:darkgrey;
 
 }
 ul {
-    list-style-type:none;
+    list-style:none;
  }
+ul li a{
+    text-decoration: none;
+    color:white;
+}
 li {
     /*padding:
     margin: 20px;
     border:*/
 }
-.form input {
-
+form input {
+    margin:20px;
 }

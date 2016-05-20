@@ -1,0 +1,18 @@
+html, body, ul, li, a{
+    margin:0;
+    padding:0;
+    border:0;
+}
+.navigation{
+    display:flex;
+    flex-direction: column;
+}
+.navigation a{
+    display:block;
+}
+@media all and (min-width:600px){
+    .navigation{
+        flex-direction:row;
+        justify-content:flex-end;
+    }
+}
